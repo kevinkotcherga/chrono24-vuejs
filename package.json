@@ -4,6 +4,9 @@
 	"description": "Avec : \r * des photos randoms\r * une navbar toute faite\r * un body tout fait\r * des sons\r * des svg\r * jQuery et Bootstrap reliés",
 	"main": "script.js",
 	"type": "module",
+  "postinstall": "npm run build",
+  "start": "node server.js",
+
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"sass": "sass --watch ./assets/style/main.scss:./assets/style/style.css"
@@ -19,6 +22,9 @@
 	},
 	"homepage": "https://github.com/JustFS/vue-project#readme",
 	"dependencies": {
-		"js-cookie": "^3.0.1"
+		"express": "^4.17.3",
+		"js-cookie": "^3.0.1",
+		"serve-static": "^1.14.2",
+		"vue": "^3.2.31"
 	}
 }
