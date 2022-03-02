@@ -4,10 +4,10 @@
 	"description": "Avec : \r * des photos randoms\r * une navbar toute faite\r * un body tout fait\r * des sons\r * des svg\r * jQuery et Bootstrap reliés",
 	"main": "script.js",
 	"type": "module",
+	"postinstall": "npm run build",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"sass": "sass --watch ./assets/style/main.scss:./assets/style/style.css",
-		"postinstall": "npm run build",
 		"start": "node server.js"
 	},
 	"repository": {
