@@ -10,3 +10,4 @@ This project shows how to add Vue to a HTML page.
 ##### Left to do :
 * Wish List
 * Shopping cart 
+# chrono24-vuejs
